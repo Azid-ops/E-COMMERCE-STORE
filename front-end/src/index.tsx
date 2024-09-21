@@ -1,8 +1,9 @@
 import React from 'react';
 import i18n from 'i18next';
-import { initReactI18next } from 'react-i18next';
-import English from './ECOM.APP/ECOM.WEB.UTILS/Languages/English/en.json';
-import Arabic from './ECOM.APP/ECOM.WEB.UTILS/Languages/Arabic/ar.json';
+import { initReactI18next, Translation } from 'react-i18next';
+import English from './ECOM.APP/ECOM.WEB.UTILS/Languages/en.json';
+import Arabic from './ECOM.APP/ECOM.WEB.UTILS/Languages/ar.json';
+import French from './ECOM.APP/ECOM.WEB.UTILS/Languages/french.json';
 
 import ReactDOM from 'react-dom/client';
 import './index.css';
@@ -18,7 +19,8 @@ i18n.use(initReactI18next)
   .init({
       resources: {
           en: { translation: English },
-          ar: { translation: Arabic }
+          ar: { translation: Arabic },
+          fr: { Translation: French}
       },
       lng: 'en',
       fallbackLng: 'en',
