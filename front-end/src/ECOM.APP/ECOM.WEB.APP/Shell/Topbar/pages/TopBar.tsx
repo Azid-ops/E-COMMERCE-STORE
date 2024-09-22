@@ -15,7 +15,7 @@ const TopBar = (props) => {
                 padding: "10px"
             }}>
 
-                <img src={BrandLogo} style={{ width: 80, height: 60 }} alt="Website Logo" />
+                <img src={BrandLogo} style={{ width: 100, height: 70 }} alt="Website Logo" />
 
                 <div style={{ flexGrow: 1, display: "flex", justifyContent: "center" }}>
                     <div style={{ position: "relative", width: "500px",borderRadius:"6px"}}>
