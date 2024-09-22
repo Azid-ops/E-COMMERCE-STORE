@@ -1,12 +1,12 @@
 import React from 'react';
 import i18n from 'i18next';
-import { initReactI18next, Translation } from 'react-i18next';
+import { initReactI18next } from 'react-i18next';
 import English from './ECOM.APP/ECOM.WEB.UTILS/Languages/en.json';
 import Arabic from './ECOM.APP/ECOM.WEB.UTILS/Languages/ar.json';
 import French from './ECOM.APP/ECOM.WEB.UTILS/Languages/fr.json';
 
 
-import { PrimeReactProvider, PrimeReactContext } from 'primereact/api';
+import { PrimeReactProvider } from 'primereact/api';
 import ReactDOM from 'react-dom/client';
 import './index.css';
 import MainView from './ECOM.APP/ECOM.WEB.APP/Shell/MainView.tsx';
