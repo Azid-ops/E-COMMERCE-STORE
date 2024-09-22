@@ -1,0 +1,57 @@
+.GlobalButtons
+{
+    background: #008080;
+    margin: 10px 10px 8px 10px;
+    border-radius: 6px;
+    border-color: none;
+    font-family: "Inter", sans-serif;
+    font-optical-sizing: auto;
+    color: #F5F5F5;
+    font-weight: 300;
+    font-style: normal;
+    border: 2px solid #66CCCC;
+}
+.GlobalButtons:hover
+{
+    cursor: pointer;
+    background-color: #66CCCC;
+    color: #F5F5F5;
+    border: 2px solid #008080;
+    border-radius: 6px;
+}
+
+.container {
+    margin-top: 5%;
+  }
+  
+  /* Style to create scroll bar in dropdown */
+  .scrollable-dropdown {
+    height: auto;
+    max-height: 320px;
+    /* Increase / Decrease value as per your need */
+    overflow-x: hidden;
+  }
+  
+
+  .custom-dropdown .p-dropdown-label {
+    color: #F5F5F5;  /* Change text color of selected option or placeholder */
+}
+
+.custom-dropdown .p-dropdown-item {
+    color: #F5F5F5;   /* Optional: Change dropdown items' color if needed */
+}
+
+.custom-dropdown .p-dropdown {
+    background-color: #008080 !important; /* Ensure the background color sticks */
+}
+
+.custom-dropdown .p-dropdown-trigger {
+  color: #F5F5F5;  /* Icon color */
+}
+
+/* Optionally, style the hover effect for the dropdown icon */
+.custom-dropdown .p-dropdown-trigger:hover {
+  color: #66CCCC;  /* Icon color on hover */
+}
+
+
