@@ -1,6 +1,6 @@
 import React from 'react';
-import BrandLogo from "../../../ECOM.WEB.UI/Images/Logo.png";
-import '../../../ECOM.WEB.UI/Styles/Buttons.css';
+import BrandLogo from "../../../../ECOM.WEB.UTILS/Images/Logo.png";
+import '../../../../ECOM.WEB.UTILS/Styles/Buttons.css';
 import { useTranslation } from 'react-i18next';
 import { Dropdown } from 'primereact/dropdown';
 

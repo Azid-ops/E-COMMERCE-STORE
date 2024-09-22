@@ -1,9 +1,19 @@
 import React from 'react';
-import RoutesViewModel from '../../ECOM.WEB.VIEWMODEL/Base/RoutesViewModel.tsx';
+
+import {BrowserRouter as Router, Routes,Route} from 'react-router-dom';
+import Topbar from './Topbar/components/Topbar.tsx';
+
 
 function MainView() {
+  
   return (
-    <RoutesViewModel />
+    <>
+      <Topbar />
+      <Router>
+        <Routes>
+        </Routes>
+      </Router>
+    </>
   );
 }
 

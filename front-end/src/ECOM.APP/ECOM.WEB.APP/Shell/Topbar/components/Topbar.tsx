@@ -1,8 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import TopBar from '../../../ECOM.WEB.APP/Shell/Parts/TopBar.tsx';
+import React, { useState,useEffect } from "react";
+import TopBar from "../pages/TopBar.tsx";
 import { useTranslation } from 'react-i18next';
 
-const TopBarViewModel = () => {
+const Topbar = () => {
     const { i18n } = useTranslation();
 
     const [languages] = useState([
@@ -34,6 +34,6 @@ const TopBarViewModel = () => {
             languages={languages}
         />
     );
-};
+}
 
-export default TopBarViewModel;
+export default Topbar;
